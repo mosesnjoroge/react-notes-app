@@ -12,3 +12,7 @@
   justify-content: space-between;
   word-wrap: break-word;
 }
+
+.note--footer{
+  justify-content: flex-end;
+}
