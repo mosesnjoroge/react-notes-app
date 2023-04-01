@@ -1,10 +1,10 @@
-
+import { Note } from "./components/NotesComponents/Note";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-
+      <Note />
     </div>
   );
 }
