@@ -1,6 +1,6 @@
-import Notes from "./components/NotesComponents/Notes"
-import './App.css';
-import "./components/css/Note.css"
+import Notes from "./Components/NotesComponents/Notes"
+import './Components/css/App.css';
+import "./Components/css/Note.css"
 
 function App() {
   return (
