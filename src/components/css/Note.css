@@ -34,7 +34,7 @@
 .note textarea::placeholder {
   color: #fff;
 }
-.note--save {
+/* .note--save {
   background: transparent;
   transition: 0.1s ease-in-out;
   border: 1.5px solid #fff;
@@ -48,7 +48,8 @@
   background: #fff;
   border: 1.5px solid #fff;
   color: #4b1589;
-}
+} */
+
 .note--delete {
   cursor: pointer;
 }

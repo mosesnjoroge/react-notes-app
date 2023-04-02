@@ -1,7 +1,8 @@
 import './components/css/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Notes from './components/NotesComponents/Notes'
 import Header from './components/NotesComponents/Header';
-import { Cloudinary } from '@cloudinary/url-gen';
+// import { Cloudinary } from '@cloudinary/url-gen';
 // import {AdvancedImage} from '@cloudinary/react';
 // import {fill} from "@cloudinary/url-gen/actions/resize";
 
