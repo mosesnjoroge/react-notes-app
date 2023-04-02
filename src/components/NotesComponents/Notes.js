@@ -5,6 +5,11 @@ import "../css/Note.css";
 
 export default function Notes() {
 
+  //get text and store in state
+  const textHandler = (e) => {
+    setInputText(e.target.value)
+  };
+
   return(
     <div className="notes">
       <Note />
