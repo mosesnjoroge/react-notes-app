@@ -38,13 +38,13 @@ export default function Notes() {
   return(
     <div className="notes">
       {notes.map((note) => (
-      <Note
-        key={note.id}
-        id={note.id}
-        text={note.text}
-        deleteNote={deleteNote}
-      />
-    ))}
+        <Note
+          key={note.id}
+          id={note.id}
+          text={note.text}
+          deleteNote={deleteNote}
+        />
+      ))}
 
       <CreateNote
         textHandler={textHandler}
