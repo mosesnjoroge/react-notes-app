@@ -1,4 +1,4 @@
-import React from "react";
+import {React} from "react";
 import Button from 'react-bootstrap/Button';
 
 export default function CreateNote({textHandler, saveHandler, inputText}) {
@@ -15,7 +15,7 @@ export default function CreateNote({textHandler, saveHandler, inputText}) {
       >
       </textarea>
       <div className="note--footer">
-        <span className="label">left</span>
+        <span className="label" >{100 - inputText.length} characters left</span>
         <Button variant="outline-light" onClick = {saveHandler}>Save</Button>
       </div>
     </div>
