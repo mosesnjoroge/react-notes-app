@@ -1,4 +1,4 @@
-# Notes App
+# Notes App with local storage
 <img width="691" alt="Screenshot 2023-04-02 at 5 44 03 PM" src="https://user-images.githubusercontent.com/102884273/229380793-d5ccf618-3e1e-41f6-b60e-5e751198898a.png">
 <img width="695" alt="Screenshot 2023-04-02 at 5 44 49 PM" src="https://user-images.githubusercontent.com/102884273/229380795-0fcef9dc-460f-44af-bc7b-e206538dee38.png">
 
