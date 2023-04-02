@@ -1,17 +1,7 @@
-import {React,useState,useEffect} from "react";
+import {React} from "react";
 import Button from 'react-bootstrap/Button';
 
 export default function CreateNote({textHandler, saveHandler, inputText}) {
-
-  const [count, setCount] = useState(0);
-
-  //character counter
-  useEffect(() => {
-    const characterCount = setInterval(() => {
-      setCount(c => c + 1);
-    }, 1000)
-    return () => clearInterval(characterCount);
-    }, []);
 
   return(
     <div className="note">
@@ -25,7 +15,7 @@ export default function CreateNote({textHandler, saveHandler, inputText}) {
       >
       </textarea>
       <div className="note--footer">
-        <span className="label" >{count}left</span>
+        <span className="label" >{100 - inputText.length }characters left</span>
         <Button variant="outline-light" onClick = {saveHandler}>Save</Button>
       </div>
     </div>

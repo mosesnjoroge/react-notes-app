@@ -36,7 +36,6 @@ export default function Notes() {
       setNotes(filteredNotes);
     }
 
-
   return(
     <div className="notes">
       {notes.map((note) => (
@@ -52,9 +51,7 @@ export default function Notes() {
         textHandler={textHandler}
         saveHandler={saveHandler}
         inputText={inputText}
-        // setCount = {setCount}
       />
-
     </div>
   );
 }
