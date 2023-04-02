@@ -9,11 +9,21 @@ export default function Notes() {
   //states
   const [notes, setNotes] = useState([]);
   const [inputText, setInputText] = useState("");
+  const [count, setCount] = useState(0);
 
   //get text and store in state
   const textHandler = (e) => {
     setInputText(e.target.value)
+
   };
+
+  //character counter
+
+  useEffect(() => {
+    // Update the document title using the browser API
+    const setCount = count + 1;
+    document.title = `${setCount} characters`;
+  });
 
   //crud actions
     //save function
@@ -35,6 +45,7 @@ export default function Notes() {
       setNotes(filteredNotes);
     }
 
+
   return(
     <div className="notes">
       {notes.map((note) => (
@@ -50,6 +61,7 @@ export default function Notes() {
         textHandler={textHandler}
         saveHandler={saveHandler}
         inputText={inputText}
+        setCount = {setCount}
       />
 
     </div>
