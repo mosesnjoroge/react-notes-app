@@ -15,7 +15,7 @@ export default function CreateNote({textHandler, saveHandler, inputText}) {
       >
       </textarea>
       <div className="note--footer">
-        <span className="label" >{100 - inputText.length }characters left</span>
+        <span className="label" >{100 - inputText.length} characters left</span>
         <Button variant="outline-light" onClick = {saveHandler}>Save</Button>
       </div>
     </div>
