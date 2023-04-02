@@ -1,4 +1,25 @@
-# Getting Started with Create React App
+# Notes App
+<img width="691" alt="Screenshot 2023-04-02 at 5 44 03 PM" src="https://user-images.githubusercontent.com/102884273/229380793-d5ccf618-3e1e-41f6-b60e-5e751198898a.png">
+<img width="695" alt="Screenshot 2023-04-02 at 5 44 49 PM" src="https://user-images.githubusercontent.com/102884273/229380795-0fcef9dc-460f-44af-bc7b-e206538dee38.png">
+
+- Create notes with a character limit of 100. 
+
+## Depedencies
+   - "@cloudinary/react": "^1.11.2",
+   - "@cloudinary/url-gen": "^1.9.2",
+   - "@emotion/react": "^11.10.6",
+   - "@emotion/styled": "^11.10.6",
+   - "@mui/icons-material": "^5.11.11",
+   - "@mui/material": "^5.11.15",
+   - "@testing-library/jest-dom": "^5.16.5",
+   - "@testing-library/react": "^13.4.0",
+   -  "@testing-library/user-event": "^13.5.0",
+   - "bootstrap": "^5.2.3",
+   -  "react": "^18.2.0",
+   - "react-bootstrap": "^2.7.2",
+   - "react-dom": "^18.2.0",
+   - "react-scripts": "5.0.1",
+   - "uuidv4": "^6.2.13"
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -28,30 +49,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
 ### Making a Progressive Web App
 
